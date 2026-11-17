@@ -1,0 +1,573 @@
+# ELF dependency inventory (not ABI validation)
+
+bin/radish
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+
+bin/rild
+  Class:                             ELF32
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libril.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+
+bin/rmt_storage
+  Class:                             ELF32
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+
+lib/hw/sensors.GT-I8150.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [sensors.GT-I8150.so]
+
+lib/libActionShot.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libActionShot.so]
+
+lib/libDivxDrm.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libmmosal.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libDivxDrm.so]
+
+lib/libExtendedExtractor.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libstagefright.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libExtendedExtractor.so]
+
+lib/libI420colorconvert.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libmm-color-convertor.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libI420colorconvert.so]
+
+lib/libOmxMp3Dec.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libOmxMp3Dec.so]
+
+lib/libPanoraMax3.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libjpeg.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x0000000e (SONAME)                     Library soname: [libPanoraMax3.so]
+
+lib/libSHIMDivxDrm.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libDivxDrm.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libSHIMDivxDrm.so]
+
+lib/libakm.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x00000001 (NEEDED)                     Shared library: [libz.so]
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x0000000e (SONAME)                     Library soname: [libakm.so]
+
+lib/libarccamera.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libicuuc.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x0000000e (SONAME)                     Library soname: [libarccamera.so]
+
+lib/libaudioalsa.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libaudioalsa.so]
+
+lib/libcamera.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libui.so]
+  0x00000001 (NEEDED)                     Shared library: [libcamera_client.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libmmipl.so]
+  0x00000001 (NEEDED)                     Shared library: [libbinder.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libs3cjpeg.so]
+  0x00000001 (NEEDED)                     Shared library: [libarccamera.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libcamera.so]
+
+lib/libcaps.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x0000000e (SONAME)                     Library soname: [libcaps.so]
+
+lib/libgemini.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libgemini.so]
+
+lib/libmm-color-convertor.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libmm-color-convertor.so]
+
+lib/libmmipl.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libmmipl.so]
+
+lib/libmmjpeg.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libgemini.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libmmjpeg.so]
+
+lib/libmmosal.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libtime_genoff.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libmmosal.so]
+
+lib/libmmparser.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libstagefright.so]
+  0x00000001 (NEEDED)                     Shared library: [libmmosal.so]
+  0x00000001 (NEEDED)                     Shared library: [libDivxDrm.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libmmparser.so]
+
+lib/liboemcamera.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libmmjpeg.so]
+  0x00000001 (NEEDED)                     Shared library: [libmmipl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [liboemcamera.so]
+
+lib/libril.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libbinder.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libhardware_legacy.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libril.so]
+
+lib/libs3cjpeg.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libs3cjpeg.so]
+
+lib/libsec-ril.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libril.so]
+  0x00000001 (NEEDED)                     Shared library: [libnetutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libsqlite.so]
+  0x00000001 (NEEDED)                     Shared library: [libhardware_legacy.so]
+  0x00000001 (NEEDED)                     Shared library: [libbinder.so]
+  0x00000001 (NEEDED)                     Shared library: [libcrypto.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libsec-ril.so]
+
+lib/libseccameraadaptor.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libui.so]
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libcamera.so]
+  0x00000001 (NEEDED)                     Shared library: [libarccamera.so]
+  0x00000001 (NEEDED)                     Shared library: [libPanoraMax3.so]
+  0x00000001 (NEEDED)                     Shared library: [libActionShot.so]
+  0x00000001 (NEEDED)                     Shared library: [libcaps.so]
+  0x00000001 (NEEDED)                     Shared library: [libbinder.so]
+  0x00000001 (NEEDED)                     Shared library: [libmedia.so]
+  0x00000001 (NEEDED)                     Shared library: [libjpeg.so]
+  0x00000001 (NEEDED)                     Shared library: [libcamera_client.so]
+  0x00000001 (NEEDED)                     Shared library: [libexifa.so]
+  0x00000001 (NEEDED)                     Shared library: [libjpega.so]
+  0x00000001 (NEEDED)                     Shared library: [libsecjpeginterface.so]
+  0x00000001 (NEEDED)                     Shared library: [libsecjpegboard.so]
+  0x00000001 (NEEDED)                     Shared library: [libsecjpegarcsoft.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libseccameraadaptor.so]
+
+lib/libsecjpegarcsoft.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libui.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libarccamera.so]
+  0x00000001 (NEEDED)                     Shared library: [libsecjpeginterface.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libsecjpegarcsoft.so]
+
+lib/libsecjpegboard.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libui.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libsecjpeginterface.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libsecjpegboard.so]
+
+lib/libsecjpeginterface.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libui.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libsecjpeginterface.so]
+
+lib/libsecril-client.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libbinder.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libhardware_legacy.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libsecril-client.so]
+
+vendor/lib/egl/eglsubAndroid.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libhardware.so]
+  0x00000001 (NEEDED)                     Shared library: [libui.so]
+  0x00000001 (NEEDED)                     Shared library: [libEGL_adreno.so]
+  0x00000001 (NEEDED)                     Shared library: [libsync.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [eglsubAndroid.so]
+
+vendor/lib/egl/libEGL_adreno.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libadreno_utils.so]
+  0x00000001 (NEEDED)                     Shared library: [libhardware.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libEGL_adreno.so]
+
+vendor/lib/egl/libGLESv1_CM_adreno.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libGLESv1_CM_adreno.so]
+
+vendor/lib/egl/libGLESv2S3D_adreno.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libGLESv2_adreno.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libGLESv2S3D_adreno.so]
+
+vendor/lib/egl/libGLESv2_adreno.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libadreno_utils.so]
+  0x00000001 (NEEDED)                     Shared library: [libstlport.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libGLESv2_adreno.so]
+
+vendor/lib/egl/libq3dtools_adreno.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libstlport.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libq3dtools_adreno.so]
+
+vendor/lib/libC2D2.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libC2D2.so]
+
+vendor/lib/libCB.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libstlport.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libCB.so]
+
+vendor/lib/libOpenCL.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libllvm-a3xx.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libstlport.so]
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libCB.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libOpenCL.so]
+
+vendor/lib/libOpenVG.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libOpenVG.so]
+
+vendor/lib/libadreno_utils.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libadreno_utils.so]
+
+vendor/lib/libc2d2_z180.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libsync.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libc2d2_z180.so]
+
+vendor/lib/libgsl.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libcutils.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [liblog.so]
+  0x00000001 (NEEDED)                     Shared library: [libz.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libgsl.so]
+
+vendor/lib/libsc-a2xx.so
+  Class:                             ELF32
+  Type:                              DYN (Shared object file)
+  Machine:                           ARM
+  0x00000001 (NEEDED)                     Shared library: [libgsl.so]
+  0x00000001 (NEEDED)                     Shared library: [libdl.so]
+  0x00000001 (NEEDED)                     Shared library: [libstlport.so]
+  0x00000001 (NEEDED)                     Shared library: [libc.so]
+  0x00000001 (NEEDED)                     Shared library: [libstdc++.so]
+  0x00000001 (NEEDED)                     Shared library: [libm.so]
+  0x0000000e (SONAME)                     Library soname: [libsc-a2xx.so]

@@ -1,0 +1,377 @@
+[
+  {
+    "source": "proprietary/vendor/lib/egl/eglsubAndroid.so",
+    "destination": "system/vendor/lib/egl/eglsubAndroid.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_eglsubAndroid"
+  },
+  {
+    "source": "proprietary/vendor/lib/egl/libEGL_adreno.so",
+    "destination": "system/vendor/lib/egl/libEGL_adreno.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libEGL_adreno"
+  },
+  {
+    "source": "proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so",
+    "destination": "system/vendor/lib/egl/libGLESv1_CM_adreno.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libGLESv1_CM_adreno"
+  },
+  {
+    "source": "proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so",
+    "destination": "system/vendor/lib/egl/libGLESv2S3D_adreno.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libGLESv2S3D_adreno"
+  },
+  {
+    "source": "proprietary/vendor/lib/egl/libGLESv2_adreno.so",
+    "destination": "system/vendor/lib/egl/libGLESv2_adreno.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libGLESv2_adreno"
+  },
+  {
+    "source": "proprietary/vendor/lib/egl/libq3dtools_adreno.so",
+    "destination": "system/vendor/lib/egl/libq3dtools_adreno.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libq3dtools_adreno"
+  },
+  {
+    "source": "proprietary/vendor/lib/libC2D2.so",
+    "destination": "system/vendor/lib/libC2D2.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libC2D2"
+  },
+  {
+    "source": "proprietary/vendor/lib/libCB.so",
+    "destination": "system/vendor/lib/libCB.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libCB"
+  },
+  {
+    "source": "proprietary/vendor/lib/libOpenCL.so",
+    "destination": "system/vendor/lib/libOpenCL.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libOpenCL"
+  },
+  {
+    "source": "proprietary/vendor/lib/libOpenVG.so",
+    "destination": "system/vendor/lib/libOpenVG.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libOpenVG"
+  },
+  {
+    "source": "proprietary/vendor/lib/libadreno_utils.so",
+    "destination": "system/vendor/lib/libadreno_utils.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libadreno_utils"
+  },
+  {
+    "source": "proprietary/vendor/lib/libc2d2_z180.so",
+    "destination": "system/vendor/lib/libc2d2_z180.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libc2d2_z180"
+  },
+  {
+    "source": "proprietary/vendor/lib/libgsl.so",
+    "destination": "system/vendor/lib/libgsl.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libgsl"
+  },
+  {
+    "source": "proprietary/vendor/lib/libsc-a2xx.so",
+    "destination": "system/vendor/lib/libsc-a2xx.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libsc-a2xx"
+  },
+  {
+    "source": "proprietary/lib/libakm.so",
+    "destination": "system/lib/libakm.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libakm"
+  },
+  {
+    "source": "proprietary/lib/libaudioalsa.so",
+    "destination": "system/lib/libaudioalsa.so",
+    "kind": "library",
+    "install": true,
+    "module": "libaudioalsa"
+  },
+  {
+    "source": "proprietary/lib/hw/sensors.GT-I8150.so",
+    "destination": "system/lib/hw/sensors.ancora.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_sensors.ancora"
+  },
+  {
+    "source": "proprietary/lib/libActionShot.so",
+    "destination": "system/lib/libActionShot.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libActionShot"
+  },
+  {
+    "source": "proprietary/lib/libPanoraMax3.so",
+    "destination": "system/lib/libPanoraMax3.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libPanoraMax3"
+  },
+  {
+    "source": "proprietary/lib/libarccamera.so",
+    "destination": "system/lib/libarccamera.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libarccamera"
+  },
+  {
+    "source": "proprietary/lib/libcamera.so",
+    "destination": "system/lib/libcamera.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libcamera"
+  },
+  {
+    "source": "proprietary/lib/libcaps.so",
+    "destination": "system/lib/libcaps.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libcaps"
+  },
+  {
+    "source": "proprietary/lib/libgemini.so",
+    "destination": "system/lib/libgemini.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libgemini"
+  },
+  {
+    "source": "proprietary/lib/libmmjpeg.so",
+    "destination": "system/lib/libmmjpeg.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libmmjpeg"
+  },
+  {
+    "source": "proprietary/lib/liboemcamera.so",
+    "destination": "system/lib/liboemcamera.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_liboemcamera"
+  },
+  {
+    "source": "proprietary/lib/libs3cjpeg.so",
+    "destination": "system/lib/libs3cjpeg.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libs3cjpeg"
+  },
+  {
+    "source": "proprietary/lib/libseccameraadaptor.so",
+    "destination": "system/lib/libseccameraadaptor.so",
+    "kind": "library",
+    "install": true,
+    "module": "libseccameraadaptor"
+  },
+  {
+    "source": "proprietary/lib/libsecjpegarcsoft.so",
+    "destination": "system/lib/libsecjpegarcsoft.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libsecjpegarcsoft"
+  },
+  {
+    "source": "proprietary/lib/libsecjpegboard.so",
+    "destination": "system/lib/libsecjpegboard.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libsecjpegboard"
+  },
+  {
+    "source": "proprietary/lib/libsecjpeginterface.so",
+    "destination": "system/lib/libsecjpeginterface.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libsecjpeginterface"
+  },
+  {
+    "source": "proprietary/lib/libI420colorconvert.so",
+    "destination": "system/lib/libI420colorconvert.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libI420colorconvert"
+  },
+  {
+    "source": "proprietary/lib/libmm-color-convertor.so",
+    "destination": "system/lib/libmm-color-convertor.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libmm-color-convertor"
+  },
+  {
+    "source": "proprietary/lib/libDivxDrm.so",
+    "destination": "system/lib/libDivxDrm.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libDivxDrm"
+  },
+  {
+    "source": "proprietary/lib/libExtendedExtractor.so",
+    "destination": "system/lib/libExtendedExtractor.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libExtendedExtractor"
+  },
+  {
+    "source": "proprietary/lib/libSHIMDivxDrm.so",
+    "destination": "system/lib/libSHIMDivxDrm.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libSHIMDivxDrm"
+  },
+  {
+    "source": "proprietary/lib/libmmipl.so",
+    "destination": "system/lib/libmmipl.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libmmipl"
+  },
+  {
+    "source": "proprietary/lib/libmmosal.so",
+    "destination": "system/lib/libmmosal.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libmmosal"
+  },
+  {
+    "source": "proprietary/lib/libmmparser.so",
+    "destination": "system/lib/libmmparser.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libmmparser"
+  },
+  {
+    "source": "proprietary/lib/libOmxMp3Dec.so",
+    "destination": "system/lib/libOmxMp3Dec.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libOmxMp3Dec"
+  },
+  {
+    "source": "proprietary/lib/libril.so",
+    "destination": "system/lib/libril.so",
+    "kind": "library",
+    "install": false,
+    "module": "ancora_blob_libril"
+  },
+  {
+    "source": "proprietary/lib/libsecril-client.so",
+    "destination": "system/lib/libsecril-client.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libsecril-client"
+  },
+  {
+    "source": "proprietary/lib/libsec-ril.so",
+    "destination": "system/lib/libsec-ril.so",
+    "kind": "library",
+    "install": true,
+    "module": "ancora_blob_libsec-ril"
+  },
+  {
+    "source": "proprietary/bin/rmt_storage",
+    "destination": "system/bin/rmt_storage",
+    "kind": "executable",
+    "install": true,
+    "module": "ancora_blob_rmt_storage"
+  },
+  {
+    "source": "proprietary/bin/radish",
+    "destination": "system/bin/radish",
+    "kind": "executable",
+    "install": true,
+    "module": "ancora_blob_radish"
+  },
+  {
+    "source": "proprietary/bin/BCM4329B1_002.002.023.0944.0953.hcd",
+    "destination": "system/vendor/firmware/bcm4329.hcd",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/vidc_720p_command_control.fw",
+    "destination": "system/etc/firmware/vidc_720p_command_control.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/vidc_720p_h263_dec_mc.fw",
+    "destination": "system/etc/firmware/vidc_720p_h263_dec_mc.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/vidc_720p_h264_dec_mc.fw",
+    "destination": "system/etc/firmware/vidc_720p_h264_dec_mc.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/vidc_720p_h264_enc_mc.fw",
+    "destination": "system/etc/firmware/vidc_720p_h264_enc_mc.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/vidc_720p_mp4_dec_mc.fw",
+    "destination": "system/etc/firmware/vidc_720p_mp4_dec_mc.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/vidc_720p_mp4_enc_mc.fw",
+    "destination": "system/etc/firmware/vidc_720p_mp4_enc_mc.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/vidc_720p_vc1_dec_mc.fw",
+    "destination": "system/etc/firmware/vidc_720p_vc1_dec_mc.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/yamato_pfp.fw",
+    "destination": "system/etc/firmware/yamato_pfp.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/etc/firmware/yamato_pm4.fw",
+    "destination": "system/etc/firmware/yamato_pm4.fw",
+    "kind": "file",
+    "install": true
+  },
+  {
+    "source": "proprietary/bin/rild",
+    "destination": "system/bin/rild",
+    "kind": "executable",
+    "install": false,
+    "module": "ancora_blob_rild"
+  }
+]
