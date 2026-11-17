@@ -21,7 +21,7 @@ for e in entries:
         destination = Path(e['destination'])
         mk += ['', 'include $(CLEAR_VARS)',
                'LOCAL_MODULE := ' + e['module'],
-               'LOCAL_MODULE_STEM := ' + destination.name,
+               'LOCAL_MODULE_STEM := ' + (destination.stem if e['kind'] == 'library' else destination.name),
                'LOCAL_SRC_FILES := ' + e['source'],
                'LOCAL_MODULE_CLASS := ' + ('SHARED_LIBRARIES' if e['kind'] == 'library' else 'EXECUTABLES'),
                'LOCAL_MODULE_SUFFIX := ' + ('.so' if e['kind'] == 'library' else ''), 'LOCAL_MULTILIB := 32',
