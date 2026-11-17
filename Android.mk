@@ -4,7 +4,7 @@ ifeq ($(TARGET_DEVICE),ancora)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_eglsubAndroid
-LOCAL_MODULE_STEM := eglsubAndroid.so
+LOCAL_MODULE_STEM := eglsubAndroid
 LOCAL_SRC_FILES := proprietary/vendor/lib/egl/eglsubAndroid.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -16,7 +16,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libEGL_adreno
-LOCAL_MODULE_STEM := libEGL_adreno.so
+LOCAL_MODULE_STEM := libEGL_adreno
 LOCAL_SRC_FILES := proprietary/vendor/lib/egl/libEGL_adreno.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -28,7 +28,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libGLESv1_CM_adreno
-LOCAL_MODULE_STEM := libGLESv1_CM_adreno.so
+LOCAL_MODULE_STEM := libGLESv1_CM_adreno
 LOCAL_SRC_FILES := proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -40,7 +40,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libGLESv2S3D_adreno
-LOCAL_MODULE_STEM := libGLESv2S3D_adreno.so
+LOCAL_MODULE_STEM := libGLESv2S3D_adreno
 LOCAL_SRC_FILES := proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -52,7 +52,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libGLESv2_adreno
-LOCAL_MODULE_STEM := libGLESv2_adreno.so
+LOCAL_MODULE_STEM := libGLESv2_adreno
 LOCAL_SRC_FILES := proprietary/vendor/lib/egl/libGLESv2_adreno.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -64,7 +64,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libq3dtools_adreno
-LOCAL_MODULE_STEM := libq3dtools_adreno.so
+LOCAL_MODULE_STEM := libq3dtools_adreno
 LOCAL_SRC_FILES := proprietary/vendor/lib/egl/libq3dtools_adreno.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -76,7 +76,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libC2D2
-LOCAL_MODULE_STEM := libC2D2.so
+LOCAL_MODULE_STEM := libC2D2
 LOCAL_SRC_FILES := proprietary/vendor/lib/libC2D2.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -88,7 +88,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libCB
-LOCAL_MODULE_STEM := libCB.so
+LOCAL_MODULE_STEM := libCB
 LOCAL_SRC_FILES := proprietary/vendor/lib/libCB.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -100,7 +100,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libOpenCL
-LOCAL_MODULE_STEM := libOpenCL.so
+LOCAL_MODULE_STEM := libOpenCL
 LOCAL_SRC_FILES := proprietary/vendor/lib/libOpenCL.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -112,7 +112,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libOpenVG
-LOCAL_MODULE_STEM := libOpenVG.so
+LOCAL_MODULE_STEM := libOpenVG
 LOCAL_SRC_FILES := proprietary/vendor/lib/libOpenVG.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -124,7 +124,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libadreno_utils
-LOCAL_MODULE_STEM := libadreno_utils.so
+LOCAL_MODULE_STEM := libadreno_utils
 LOCAL_SRC_FILES := proprietary/vendor/lib/libadreno_utils.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -136,7 +136,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libc2d2_z180
-LOCAL_MODULE_STEM := libc2d2_z180.so
+LOCAL_MODULE_STEM := libc2d2_z180
 LOCAL_SRC_FILES := proprietary/vendor/lib/libc2d2_z180.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -148,7 +148,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libgsl
-LOCAL_MODULE_STEM := libgsl.so
+LOCAL_MODULE_STEM := libgsl
 LOCAL_SRC_FILES := proprietary/vendor/lib/libgsl.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -160,7 +160,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libsc-a2xx
-LOCAL_MODULE_STEM := libsc-a2xx.so
+LOCAL_MODULE_STEM := libsc-a2xx
 LOCAL_SRC_FILES := proprietary/vendor/lib/libsc-a2xx.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -172,7 +172,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libakm
-LOCAL_MODULE_STEM := libakm.so
+LOCAL_MODULE_STEM := libakm
 LOCAL_SRC_FILES := proprietary/lib/libakm.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -184,7 +184,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudioalsa
-LOCAL_MODULE_STEM := libaudioalsa.so
+LOCAL_MODULE_STEM := libaudioalsa
 LOCAL_SRC_FILES := proprietary/lib/libaudioalsa.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -196,7 +196,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_sensors.ancora
-LOCAL_MODULE_STEM := sensors.ancora.so
+LOCAL_MODULE_STEM := sensors.ancora
 LOCAL_SRC_FILES := proprietary/lib/hw/sensors.GT-I8150.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -208,7 +208,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libActionShot
-LOCAL_MODULE_STEM := libActionShot.so
+LOCAL_MODULE_STEM := libActionShot
 LOCAL_SRC_FILES := proprietary/lib/libActionShot.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -220,7 +220,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libPanoraMax3
-LOCAL_MODULE_STEM := libPanoraMax3.so
+LOCAL_MODULE_STEM := libPanoraMax3
 LOCAL_SRC_FILES := proprietary/lib/libPanoraMax3.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -232,7 +232,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libarccamera
-LOCAL_MODULE_STEM := libarccamera.so
+LOCAL_MODULE_STEM := libarccamera
 LOCAL_SRC_FILES := proprietary/lib/libarccamera.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -244,7 +244,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libcamera
-LOCAL_MODULE_STEM := libcamera.so
+LOCAL_MODULE_STEM := libcamera
 LOCAL_SRC_FILES := proprietary/lib/libcamera.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -256,7 +256,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libcaps
-LOCAL_MODULE_STEM := libcaps.so
+LOCAL_MODULE_STEM := libcaps
 LOCAL_SRC_FILES := proprietary/lib/libcaps.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -268,7 +268,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libgemini
-LOCAL_MODULE_STEM := libgemini.so
+LOCAL_MODULE_STEM := libgemini
 LOCAL_SRC_FILES := proprietary/lib/libgemini.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -280,7 +280,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libmmjpeg
-LOCAL_MODULE_STEM := libmmjpeg.so
+LOCAL_MODULE_STEM := libmmjpeg
 LOCAL_SRC_FILES := proprietary/lib/libmmjpeg.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -292,7 +292,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_liboemcamera
-LOCAL_MODULE_STEM := liboemcamera.so
+LOCAL_MODULE_STEM := liboemcamera
 LOCAL_SRC_FILES := proprietary/lib/liboemcamera.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -304,7 +304,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libs3cjpeg
-LOCAL_MODULE_STEM := libs3cjpeg.so
+LOCAL_MODULE_STEM := libs3cjpeg
 LOCAL_SRC_FILES := proprietary/lib/libs3cjpeg.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -316,7 +316,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libseccameraadaptor
-LOCAL_MODULE_STEM := libseccameraadaptor.so
+LOCAL_MODULE_STEM := libseccameraadaptor
 LOCAL_SRC_FILES := proprietary/lib/libseccameraadaptor.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -328,7 +328,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libsecjpegarcsoft
-LOCAL_MODULE_STEM := libsecjpegarcsoft.so
+LOCAL_MODULE_STEM := libsecjpegarcsoft
 LOCAL_SRC_FILES := proprietary/lib/libsecjpegarcsoft.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -340,7 +340,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libsecjpegboard
-LOCAL_MODULE_STEM := libsecjpegboard.so
+LOCAL_MODULE_STEM := libsecjpegboard
 LOCAL_SRC_FILES := proprietary/lib/libsecjpegboard.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -352,7 +352,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libsecjpeginterface
-LOCAL_MODULE_STEM := libsecjpeginterface.so
+LOCAL_MODULE_STEM := libsecjpeginterface
 LOCAL_SRC_FILES := proprietary/lib/libsecjpeginterface.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -364,7 +364,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libI420colorconvert
-LOCAL_MODULE_STEM := libI420colorconvert.so
+LOCAL_MODULE_STEM := libI420colorconvert
 LOCAL_SRC_FILES := proprietary/lib/libI420colorconvert.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -376,7 +376,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libmm-color-convertor
-LOCAL_MODULE_STEM := libmm-color-convertor.so
+LOCAL_MODULE_STEM := libmm-color-convertor
 LOCAL_SRC_FILES := proprietary/lib/libmm-color-convertor.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -388,7 +388,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libDivxDrm
-LOCAL_MODULE_STEM := libDivxDrm.so
+LOCAL_MODULE_STEM := libDivxDrm
 LOCAL_SRC_FILES := proprietary/lib/libDivxDrm.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -400,7 +400,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libExtendedExtractor
-LOCAL_MODULE_STEM := libExtendedExtractor.so
+LOCAL_MODULE_STEM := libExtendedExtractor
 LOCAL_SRC_FILES := proprietary/lib/libExtendedExtractor.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -412,7 +412,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libSHIMDivxDrm
-LOCAL_MODULE_STEM := libSHIMDivxDrm.so
+LOCAL_MODULE_STEM := libSHIMDivxDrm
 LOCAL_SRC_FILES := proprietary/lib/libSHIMDivxDrm.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -424,7 +424,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libmmipl
-LOCAL_MODULE_STEM := libmmipl.so
+LOCAL_MODULE_STEM := libmmipl
 LOCAL_SRC_FILES := proprietary/lib/libmmipl.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -436,7 +436,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libmmosal
-LOCAL_MODULE_STEM := libmmosal.so
+LOCAL_MODULE_STEM := libmmosal
 LOCAL_SRC_FILES := proprietary/lib/libmmosal.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -448,7 +448,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libmmparser
-LOCAL_MODULE_STEM := libmmparser.so
+LOCAL_MODULE_STEM := libmmparser
 LOCAL_SRC_FILES := proprietary/lib/libmmparser.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -460,7 +460,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libOmxMp3Dec
-LOCAL_MODULE_STEM := libOmxMp3Dec.so
+LOCAL_MODULE_STEM := libOmxMp3Dec
 LOCAL_SRC_FILES := proprietary/lib/libOmxMp3Dec.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -472,7 +472,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libsecril-client
-LOCAL_MODULE_STEM := libsecril-client.so
+LOCAL_MODULE_STEM := libsecril-client
 LOCAL_SRC_FILES := proprietary/lib/libsecril-client.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
@@ -484,7 +484,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ancora_blob_libsec-ril
-LOCAL_MODULE_STEM := libsec-ril.so
+LOCAL_MODULE_STEM := libsec-ril
 LOCAL_SRC_FILES := proprietary/lib/libsec-ril.so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
